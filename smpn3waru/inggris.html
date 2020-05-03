@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SMPN 3 Waru : Study Club</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+	<style type="text/css">
+		body {
+		font-size: 15px;
+		font-family: 'Lexend Deca', sans-serif;
+		}
+	</style>
+</head>
+<body>
+	<div class="panel-footer" align="left" style="background-color: #4b85d6; color: white; font-size: 15px;">
+		<h1 style="text-shadow: 2px 3px 1px grey;">SMP Negeri 3 Waru</h1>
+		<br>
+		Alamat : Jl. Jendral S. Parman No. 30 Waru, Sidoarjo | Email : smpn3waru@yahoo.com | Telp : (031) 85313981
+		<br>
+	</div>
+	<div id="watch"></div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript">
+		    $(document).ready(function(){
+		        function clock() {
+		          var now = new Date();
+		          var secs = ('0' + now.getSeconds()).slice(-2);
+		          var mins = ('0' + now.getMinutes()).slice(-2);
+		          var hr = now.getHours();
+		          var Time = hr + " : " + mins + " : " + secs;
+		          document.getElementById("watch").innerHTML = Time;
+		          requestAnimationFrame(clock);
+		        }
+
+		        requestAnimationFrame(clock);
+		    });
+		</script>
+		<style type="text/css">
+					@import url('https://fonts.googleapis.com/css?family=Lexend+Deca');
+body {
+  background-color: white;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+#watch {
+  text-align: center;
+  font-size: 25px;
+  background-color: orange;
+  text-shadow: 1px 2px 1px grey;
+}
+		</style>
+	<ul class="nav nav-tabs">
+  		<li class="nav-item">
+    		<a class="nav-link active" href="index.html">Beranda</a>
+  		</li>
+  		<li class="nav-item">
+    		<a class="nav-link" href="study-club.html">Study Club</a>
+  		</li>
+  		<li class="nav-item">
+    		<a class="nav-link" href="study-club.html">Jadwal</a>
+  		</li>
+  		<li class="nav-item">
+    		<a class="nav-link" href="#">Tentang Kami</a>
+  		</li>
+  	</ul>
+  	<div class="container" style="margin-top: 5px; border: 2px solid grey; border-radius: 6px;">
+  		<p>
+  			<b>
+  				Judul Tes :
+  			</b>
+  			<br>
+  			Study Club Pendampingan Bahasa  Inggris 3
+  		</p>
+  		<p>
+  			<b>
+  				Mata Pelajaran :
+  			</b>
+  			<br>
+  			Bahasa Inggris
+  		</p>
+  		<p>
+  			<b>
+  				Jumlah Soal :
+  			</b>
+  			<br>
+  			10 Soal
+  		</p>
+  		<p>
+  			<b>
+  				Alokasi Waktu Tes:
+  			</b>
+  			<br>
+  			90 Menit
+  		</p>
+  		<p>
+  			<b>
+  				Pilihan Ganda :
+  			</b>
+  			<br>
+  			10 Soal
+  		</p>
+  		<p>
+  			<b>
+  				Essay :
+  			</b>
+  			<br>
+  			0 Soal
+  		</p>
+  		<p>
+  			<b>
+  				Nama Guru :
+  			</b>
+  			<br>
+  			Suwarno
+  		</p>
+  		<div>
+  			<a href="https://forms.gle/ccuHB2eazAFxBFgB7" class="btn btn-success btn-md">M u l a i</a>
+  		</div>
+  	</div>
